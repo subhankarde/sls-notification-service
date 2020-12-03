@@ -1,0 +1,5 @@
+SendMailIAM:
+  Effect: 'Allow'
+  Action:
+    - 'SES:SendEmail'
+  Resource: 'arn:aws:ses:*'
